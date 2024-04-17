@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest"
-import { PaymentFactory } from "../main/factory/PaymentFactory.js"
-import { PaymentTypes } from "../main/models/PaymentTypes.js"
+import { PaymentFactory } from "../main/factory/factory/PaymentFactory.js"
+import { PaymentTypes } from "../main/factory/models/PaymentTypes.js"
 
 describe("PaymentFactory should ", () => {
   it("create a paypal payment", () => {
