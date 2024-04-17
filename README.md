@@ -1,1 +1,1 @@
-# Example of the use of the factory design pattern
+# Example of the use of the creational design pattern
