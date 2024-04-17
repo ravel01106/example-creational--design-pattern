@@ -6,7 +6,6 @@ describe("PaymentFactory should ", () => {
   it("create a paypal payment", () => {
     const paymentFactory = new PaymentFactory()
     const payment = paymentFactory.obtainPayment(PaymentTypes.PAYPAL)
-
     expect(payment.createPayment()).toBe("Processing payment with paypal")
   })
 
@@ -19,7 +18,6 @@ describe("PaymentFactory should ", () => {
   it("create a debit card payment", () => {
     const paymentFactory = new PaymentFactory()
     const payment = paymentFactory.obtainPayment(PaymentTypes.DEBIT_CARD)
-
     expect(payment.createPayment()).toBe("Processing payment with debit card")
   })
 
