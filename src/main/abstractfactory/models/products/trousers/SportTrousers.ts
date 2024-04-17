@@ -2,10 +2,10 @@ import { ITrousers } from "../../../interfaces/ITrouser.js"
 
 class SportTrousers implements ITrousers {
   hasPockets(): boolean {
-    throw new Error("Method not implemented.")
+    return false
   }
   getClosureType(): string {
-    throw new Error("Method not implemented.")
+    return "no tiene cierre"
   }
 }
 

@@ -2,10 +2,10 @@ import { IShirt } from "../../../interfaces/IShirt.js"
 
 class SportShirt implements IShirt {
   hasLongSleeves(): boolean {
-    throw new Error("Method not implemented.")
+    return false
   }
   hasButtons(): boolean {
-    throw new Error("Method not implemented.")
+    return false
   }
 }
 

@@ -2,10 +2,10 @@ import { IShoe } from "../../../interfaces/IShoe.js"
 
 class SportShoe implements IShoe {
   isElegantShoe(): boolean {
-    throw new Error("Method not implemented.")
+    return false
   }
   isRunningShoes(): boolean {
-    throw new Error("Method not implemented.")
+    return true
   }
 }
 
